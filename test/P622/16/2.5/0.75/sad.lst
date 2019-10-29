@@ -1,0 +1,209 @@
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXE  -  PHASING AND DENSITY MODIFICATION  -  Version 2016/2  +
+ +  Copyright (c)  George M. Sheldrick 2001-16                      +
+ +  Started at 11:00:06 on 07 Oct 2016                              +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Please cite: G.M. Sheldrick (2010), "Experimental phasing with
+ SHELXC/D/E: combining chain tracing with density modification",
+ Acta Cryst. D66, 479-485 (Open Access) if SHELXE proves useful.
+
+ Command line parameters:
+  sad sad_fa -h0 -s0.750000 -m20
+
+ Cell, symmetry and heavy atoms from: sad_fa.res
+ FA and alpha from: sad_fa.hkl
+ Native data from: sad.hkl
+ Listing output to sad.lst
+ Phases output to sad.phs
+ Revised heavy atom sites output to sad.hat
+ Revised heavy atom phases output to sad.pha
+
+
+ Summary of parameters to be employed:
+
+ -a     0  iterations autotracing
+ -b   5.0  extra B for revised heavy atom sites
+ -c 0.400  fraction of pixels in crossover region
+ -d 0.000  high resolution limit to be applied to input data
+ -e unset  fill in missing data up to maximum resolution + 0.2 Ang.
+ -f unset  read intensity not F from native .hkl file
+ -F 0.800  fractional weight for phases from previous global cycle
+ -g 1.100  solvent gamma flipping factor
+ -h unset  heavy atoms not present in native
+ -i unset  no structure inversion
+ -k   4.5  minimum height/sigma for revised heavy atom sites
+ -l     2  space for  2000000 reflections
+ -L     6  minimum number of residues per chain (if more than 3 chains)
+ -m    20  cycles of density modification
+ -r  3.00  map resolution (multiplies maximum indices)
+ -s 0.750  solvent fraction
+ -v unset  density sharpening factor dependent on resolution
+ -w 0.200  weight for experimental phases after cycle 1
+ -x unset  no phase and trace diagnostics 
+ -Y 0.300  SAD phase shift factor
+ -z unset  do not optimize heavy atoms
+
+ Space group: P 6 2 2   Allowed origin shift code: 10
+
+    22 atoms read from file sad_fa.res
+
+    35210 Reflections read from file sad_fa.hkl
+
+    50778 Reflections read from file sad.hkl
+
+    50778 Unique data, highest resolution =  1.529 Angstroms
+
+ Anisotropic scaling: intensities multiplied by
+ -0.000112h^2 -0.000112k^2 +0.000113l^2 +0.000000kl +0.000000hl -0.000112hk
+
+    17 Reflections with d > 1.729 and      0 in range  1.729 > d > 1.729 added
+
+ Density sharpening factor set to  1.46
+ Fourier grid =   256 x  256 x  126     0.000 <= z <= 0.500
+
+    92 Point spherical net set up with radius 2.42A
+    10 Extra Fourier layers will be generated
+
+ <|E^2-1|> = 0.745
+
+ Overall CC between Eobs (from delF) and Ecalc (from heavy atoms) = 11.94%
+
+ <wt> = 0.101  for phases from phiT = phiA + alpha
+ <wt> = 0.169, Contrast = 0.016, Connect. = 0.561 for dens.mod. cycle 1
+ <wt> = 0.205, Contrast = 0.068, Connect. = 0.605 for dens.mod. cycle 2
+ <wt> = 0.221, Contrast = 0.148, Connect. = 0.697 for dens.mod. cycle 3
+ <wt> = 0.235, Contrast = 0.192, Connect. = 0.729 for dens.mod. cycle 4
+ <wt> = 0.245, Contrast = 0.184, Connect. = 0.718 for dens.mod. cycle 5
+ <wt> = 0.255, Contrast = 0.174, Connect. = 0.705 for dens.mod. cycle 6
+ <wt> = 0.264, Contrast = 0.166, Connect. = 0.695 for dens.mod. cycle 7
+ <wt> = 0.271, Contrast = 0.159, Connect. = 0.684 for dens.mod. cycle 8
+ <wt> = 0.278, Contrast = 0.154, Connect. = 0.677 for dens.mod. cycle 9
+ <wt> = 0.282, Contrast = 0.150, Connect. = 0.671 for dens.mod. cycle 10
+ <wt> = 0.286, Contrast = 0.147, Connect. = 0.666 for dens.mod. cycle 11
+ <wt> = 0.288, Contrast = 0.145, Connect. = 0.663 for dens.mod. cycle 12
+ <wt> = 0.291, Contrast = 0.143, Connect. = 0.661 for dens.mod. cycle 13
+ <wt> = 0.292, Contrast = 0.142, Connect. = 0.659 for dens.mod. cycle 14
+ <wt> = 0.293, Contrast = 0.141, Connect. = 0.657 for dens.mod. cycle 15
+ <wt> = 0.293, Contrast = 0.140, Connect. = 0.657 for dens.mod. cycle 16
+ <wt> = 0.293, Contrast = 0.140, Connect. = 0.656 for dens.mod. cycle 17
+ <wt> = 0.293, Contrast = 0.139, Connect. = 0.656 for dens.mod. cycle 18
+ <wt> = 0.293, Contrast = 0.139, Connect. = 0.656 for dens.mod. cycle 19
+ <wt> = 0.293, Contrast = 0.139, Connect. = 0.656 for dens.mod. cycle 20
+
+ Estimated mean FOM and mapCC as a function of resolution
+ d    inf - 3.38 - 2.66 - 2.32 - 2.10 - 1.94 - 1.83 - 1.73 - 1.66 - 1.59 - 1.53
+ <FOM>   0.294  0.295  0.232  0.199  0.191  0.169  0.155  0.153  0.150  0.138
+ <mapCC> 0.412  0.384  0.292  0.246  0.235  0.210  0.199  0.198  0.193  0.180
+ N        5119   5099   5027   5154   5331   4813   5475   4675   5512   4573
+
+ Estimated mean FOM = 0.198   Pseudo-free CC = 23.12 %
+
+ Anomalous density (in sigma units) at input heavy atom sites
+
+  Site     x        y        z     occ*Z   density
+    1   0.0000   0.0000   0.2215   5.6678  140.06
+    2   0.3320  -0.3320   0.0000   5.5318  124.55
+    3   0.4299   0.4299   0.5000   5.3754   40.21
+    4  -0.2135  -0.2159   0.1672   9.7580   37.30
+    5   0.2172   0.4243   0.4454   6.4804   26.26
+    6  -0.4338  -0.2282   0.1100   5.1408   22.33
+    7  -0.3401  -0.2367   0.2819   4.8110   19.55
+    8   0.3256   0.4477   0.3889   4.7566   21.15
+    9  -0.4421  -0.1188   0.0576   4.6614   18.07
+   10   0.1038   0.1038   0.5000   2.2610   13.51
+   11   0.1830   0.3493   0.4316   4.2806   18.78
+   12   0.3475   0.6512   0.4372   4.0086   14.22
+   13   0.2437   0.2437   0.5000   1.8088   10.72
+   14  -0.1139  -0.1155   0.1002   3.3354   11.80
+   15  -0.1418  -0.1394   0.0557   2.9784   11.41
+   16   0.3075   0.3066   0.3926   2.8356   11.65
+   17  -0.2655  -0.2382   0.2834   2.6554   13.17
+   18   0.4466   0.5445   0.3227   2.2270    8.80
+   19   0.0308   0.0380   0.2320   2.1114    7.79
+   20  -0.3255  -0.2371   0.2093   2.0570    9.06
+   21   0.0000   0.0000   0.3170   0.2482    2.97
+   22   0.5430   0.4546   0.4990   1.3430    9.91
+
+ Site    x       y       z  h(sig) near old  near new
+   1  0.0000  0.0000  0.2217 140.1  1/0.02  29/2.14 29/2.14 29/2.14 29/2.14
+   2  0.4295  0.4295  0.5000  40.3  3/0.04  51/1.97 51/1.97 20/9.57 20/9.57
+   3 -0.2141 -0.2166  0.1671  37.6  4/0.06  52/1.82 49/7.17 30/10.96 15/12.90
+   4  0.2176  0.4249  0.4452  26.9  5/0.05  48/1.85 8/6.44 6/11.68 55/12.09
+   5 -0.4343 -0.2275  0.1103  22.3  6/0.10  40/11.30 58/11.51 9/12.51 57/14.19
+   6  0.3248  0.4487  0.3886  20.7  8/0.15  4/11.68 16/12.46 8/13.04 48/13.12
+   7 -0.3407 -0.2379  0.2816  19.3  7/0.10  13/7.07 30/9.53 24/12.50 57/13.19
+   8  0.1829  0.3481  0.4318  18.5  11/0.11  4/6.44 48/6.70 55/10.70 55/11.43
+   9 -0.4410 -0.1186  0.0574  18.3  9/0.10  37/10.43 5/12.51 53/12.84 53/12.98
+  10  0.3459  0.6509  0.4370  14.3  12/0.13  42/3.96 10/3.97 42/4.04 42/4.05
+  11  0.1038  0.1038  0.5000  13.9  10/0.00  56/8.91 56/8.91 22/9.66 22/9.66
+  12  0.3333  0.6667  0.2201 -13.3  18/23.20  57/18.63 57/18.63 57/18.63 58/21.
+  13 -0.2649 -0.2380  0.2837  13.2  17/0.06  7/7.07 49/9.02 24/10.84 30/11.19
+  14  0.0000  0.0000  0.1662 -12.3  1/7.19  47/2.28 47/2.28 47/2.28 47/2.28
+  15 -0.1129 -0.1139  0.0999  11.6  14/0.13  17/6.26 15/10.56 25/10.63 25/10.63
+  16  0.3072  0.3070  0.3916  11.5  16/0.14  54/8.50 59/11.17 41/12.21 6/12.46
+  17 -0.1415 -0.1392  0.0558  11.4  15/0.03  15/6.26 17/13.08 31/13.10 31/13.10
+  18  0.0000  0.0000  0.0000 -11.2  15/14.97  39/4.64 39/4.64 39/4.64 39/4.64
+  19  0.2427  0.2427  0.5000  11.0  13/0.09  28/2.61 28/2.61 45/5.78 45/5.78
+  20  0.5433  0.4567  0.5000  10.3  22/0.23  51/7.63 51/7.63 2/9.59 2/9.59
+  21  0.0000  0.0000  0.3505 -10.2  21/4.35  43/2.18 43/2.18 43/2.18 43/2.18
+  22  0.0000  0.0000  0.5000 -10.1  10/9.67  34/6.33 34/6.33 34/6.33 34/6.33
+  23  0.0000  0.0000  0.2432  -9.5  1/2.82  1/2.80 1/2.80 1/2.80 1/2.80
+  24 -0.2348 -0.3364  0.2805  -9.2  17/10.87  13/10.84 7/12.50 57/12.62 49/13.0
+  25  0.0000  0.0000  0.1089  -9.2  14/10.74  33/2.30 33/2.30 33/2.30 33/2.30
+  26  0.4481  0.5449  0.3228   9.0  18/0.13  6/13.50 41/13.96 24/20.40 7/20.66
+  27  0.3424 -0.3076  0.0007  -8.9  2/1.98  27/0.73 27/3.24 27/3.64 27/3.95
+  28  0.2147  0.2147  0.5000  -8.9  13/2.70  19/2.61 19/2.61 59/7.23 59/7.23
+  29 -0.0263 -0.0154  0.2210  -8.9  1/2.14  29/2.13 29/2.13 1/2.14 1/2.14
+  30 -0.3250 -0.2378  0.2092   8.9  20/0.10  7/9.53 49/9.64 52/9.80 3/10.96
+  31  0.0000  0.0000  0.0498  -8.6  14/12.53  39/1.82 39/1.82 39/1.82 39/1.82
+  32  0.0309  0.0390  0.2330   8.1  19/0.16  29/2.26 29/2.56 32/3.32 32/3.32
+  33  0.0000  0.0000  0.1267  -7.5  14/11.22  25/2.30 25/2.30 25/2.30 25/2.30
+  34  0.0000  0.0000  0.4513  -7.5  10/11.55  36/3.62 36/3.62 36/3.62 36/3.62
+  35  0.2968 -0.2968  0.0000  -7.1  2/5.68  27/4.83 27/4.83 27/5.52 27/5.52
+  36  0.0000  0.0000  0.4234  -7.1  21/13.83  44/2.61 44/2.61 44/2.61 44/2.61
+  37 -0.4286 -0.0010  0.0562  -6.8  9/10.41  40/10.31 9/10.43 53/11.39 53/11.39
+  38  0.0000  0.0000  0.3732  -6.7  21/7.31  21/2.95 21/2.95 21/2.95 21/2.95
+  39  0.0000  0.0000  0.0357  -6.6  15/13.35  31/1.82 31/1.82 31/1.82 31/1.82
+  40 -0.4465 -0.3286  0.0566  -6.5  6/11.22  37/10.31 5/11.30 53/12.94 53/13.08
+  41  0.4473  0.3274  0.3892  -6.2  16/12.17  48/11.17 16/12.21 4/12.62 26/13.9
+  42  0.3333  0.6667  0.4624  -6.1  12/4.05  10/4.01 10/4.01 10/4.01 42/9.77
+  43  0.0000  0.0000  0.3337  -6.1  21/2.18  21/2.18 21/2.18 21/2.18 21/2.18
+  44  0.0000  0.0000  0.4033  -6.0  21/11.21  36/2.61 36/2.61 36/2.61 36/2.61
+  45  0.3048  0.3048  0.5000  -6.0  13/5.69  19/5.78 19/5.78 55/8.05 55/8.05
+  46  0.0000  0.0000  0.2850  -5.9  21/4.16  23/5.43 23/5.43 23/5.43 23/5.43
+  47  0.0000  0.0000  0.1486  -5.7  1/9.47  14/2.28 14/2.28 14/2.28 14/2.28
+  48  0.1972  0.4237  0.4447  -5.5  5/1.84  4/1.85 8/6.70 41/11.17 55/11.48
+  49 -0.2129 -0.2129  0.2222  -5.4  4/7.15  3/7.17 52/7.42 13/9.02 30/9.64
+  50 -0.3359 -0.1680  0.0000  -5.3  9/14.83  9/14.75 9/14.75 40/15.16 40/15.16
+  51  0.4336  0.4524  0.5007  -5.3  3/1.95  2/1.97 2/1.97 20/7.63 20/7.63
+  52 -0.2271 -0.2072  0.1666  -5.3  4/1.81  3/1.82 49/7.42 30/9.80 15/13.08
+  53 -0.3343  0.0000  0.0000  -5.2  9/12.96  37/11.39 37/11.39 9/12.91 9/12.91
+  54  0.2178  0.2142  0.3883  -5.0  16/8.50  59/7.29 16/8.50 56/9.06 13/14.11
+  55  0.3302  0.2340  0.4989  -4.8  13/8.55  45/8.05 45/8.05 19/8.58 19/8.58
+  56  0.1524  0.1517  0.5592   4.7  10/8.91  59/5.63 11/8.91 11/8.91 54/9.06
+  57 -0.4358 -0.2107  0.2188  -4.6  20/11.76  30/11.85 58/12.41 24/12.62 7/13.1
+  58 -0.4506 -0.3294  0.1670  -4.6  6/11.47  5/11.51 30/11.82 57/12.41 40/14.35
+  59  0.2128  0.2119  0.4443  -4.6  13/7.80  56/5.63 28/7.23 28/7.23 54/7.29
+
+ ==============================================================================
+
+       CPU times required in seconds
+       -----------------------------
+         7.4 - Setup, data input and phasing
+        65.4 - FFTs and peak-searches
+        29.6 - Sphere of influence
+         0.5 - Rest of density modification
+         0.0 - Alpha-helix search
+         0.0 - Tripeptide search
+         0.0 - Chain tracing
+         0.0 - NCS analysis
+         0.0 - B-value refinement for trace
+         0.0 - Rest of tracing
+         0.0 - Comparison with known structure
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXE finished at 11:01:49      Total time:       102.93 secs  +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

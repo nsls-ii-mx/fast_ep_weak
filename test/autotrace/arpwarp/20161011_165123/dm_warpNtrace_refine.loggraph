@@ -1,0 +1,14 @@
+$TABLE: Refinement statistics:
+$GRAPHS: Rfactor and Rfree :N:1,2,3:
+: Other refinement indicators :A:1,4,5,6,7:
+: Rmds bond length :N:1,11:
+: Rmsd angles :N:1,12:
+: Atoms added and removed :N:1,8,9:
+$$
+  Cycle Rfactor Rfree Fo_Fc_corr Fo_Fc_free_corr FOM free_FOM Atoms_add Atoms_remove Total_atoms Rms_bonds Rms_angles 
+$$
+$$
+0 0.450 0.000 0.545 0.000 0.692 0.000 0 0 1465 0 0
+1 0.406 0.000 0.646 0.000 0.729 0.000 107 16 1465 0.030 2.496
+2 0.333 0.000 0.691 0.000 0.853 0.000 177 67 2384 0.011 2.361
+$$

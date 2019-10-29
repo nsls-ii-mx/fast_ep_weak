@@ -1,0 +1,11 @@
+Using 72 cpus / 1 machines
+Input:       /GPFS/CENTRAL/XF17ID1/yamada/lysozyme/165/fast_dp/fast_dp.mtz
+Columns:     I(+),SIGI(+),I(-),SIGI(-),merged
+Unit cell:   78.78 78.78 37.07 90.00 90.00 90.00
+Wavelength:  0.9763
+N try:       200
+Pointgroup:  P 4 2 2
+Resolution:  27.85 - 1.10
+Nrefl:       45654 / 39966
+DF/F:        0.034
+dI/sig(dI):  0.887

@@ -1,0 +1,23 @@
+<?xml version="1.0"?>
+ <matthews_run>
+  <MATTHEWS_COEF  ccp4_version="7.0"  date="14/ 9/16" />
+  <meta_data>
+   <citation>
+    <citation_type>journal</citation_type>
+    <citation_id>B.W.Matthews</citation_id>
+    <journal_abbreviation>J.Mol.Biol.</journal_abbreviation>
+    <journal_volume>33</journal_volume>
+    <page_from>491</page_from>
+    <page_to>497</page_to>
+    <publication_year>1968</publication_year>
+   </citation>
+  </meta_data>
+  <keyword></keyword>
+  <cell  volume="   975077.38" />
+  <result  nmol_in_asu="           1"  matth_coef="   2.3193130"  percent_solvent="   47.000004"  prob_matth="   1.0000000" />
+  <messages>
+   <message_code>   0</message_code>
+   <message_text>Normal Termination</message_text>
+   <message_severity>information</message_severity>
+  </messages>
+ </matthews_run>

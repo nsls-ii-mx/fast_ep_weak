@@ -1,0 +1,51 @@
+ ###############################################################################
+ ### ARP/wARP Program Suite 7.6: Mtzlabels 10.12.2015 ----- Victor S. Lamzin ###
+ ############ Copyright 1998 European Molecular Biology Laboratory #############
+ ###############################################################################
+
+ User: yamada  Run date and time: Tue Oct 11 16:51:23 2016
+ CCP4 environment: 7.0  ARP/wARP environment: 7.6/bin/bin-x86_64-Linux
+
+
+ File /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/dm/dm.mtz opened on unit 1
+
+ Header information in the file /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/dm/dm.mtz
+
+ Number of columns         10
+ Number of reflections  50810
+ Symmetry operator      X,  Y,  Z
+ Symmetry operator      Y,  -X+Y,  Z+5/6
+ Symmetry operator      X-Y,  X,  Z+1/6
+ Symmetry operator      X-Y,  -Y,  -Z
+ Symmetry operator      Y,  X,  -Z+1/3
+ Symmetry operator      -Y,  -X,  -Z+5/6
+ Symmetry operator      X,  X-Y,  -Z+1/6
+ Symmetry operator      -X+Y,  Y,  -Z+1/2
+ Symmetry operator      -X,  -X+Y,  -Z+2/3
+ Symmetry operator      -X+Y,  -X,  Z+2/3
+ Symmetry operator      -X,  -Y,  Z+1/2
+ Symmetry operator      -Y,  X-Y,  Z+1/3
+ Resolution range      80.654    1.529
+    1 Label for dataset  0   Type H  H
+    2 Label for dataset  0   Type H  K
+    3 Label for dataset  0   Type H  L
+    4 Label for dataset  0   Type F  F
+    5 Label for dataset  0   Type W  FOM
+    6 Label for dataset  0   Type P  PHI
+    7 Label for dataset  0   Type Q  SIGF
+    8 Label for dataset  0   Type I  FreeF_flag
+    9 Label for dataset  0   Type P  PHIDM
+   10 Label for dataset  0   Type W  FOMDM
+ Space group number       178
+ 
+ Cell parameters        93.131   93.131  129.922   90.000   90.000  120.000
+ These are taken from the MTZ record DCEL  0
+
+FOBSLABELS F ENDFOBSLABELS
+SIGFOBSLABELS SIGF ENDSIGFOBSLABELS
+PHILABELS PHIDM PHI ENDPHILABELS
+FOMLABELS FOMDM FOM ENDFOMLABELS
+FREELABELS FreeF_flag ENDFREELABELS
+HLLABELS ENDHLLABELS
+FRIEDELLABELS ENDFRIEDELLABELS
+SIGFRIEDELLABELS ENDSIGFRIEDELLABELS

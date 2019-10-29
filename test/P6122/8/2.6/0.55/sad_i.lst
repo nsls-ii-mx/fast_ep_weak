@@ -1,0 +1,163 @@
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXE  -  PHASING AND DENSITY MODIFICATION  -  Version 2016/2  +
+ +  Copyright (c)  George M. Sheldrick 2001-16                      +
+ +  Started at 11:05:43 on 07 Oct 2016                              +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+
+ Please cite: G.M. Sheldrick (2010), "Experimental phasing with
+ SHELXC/D/E: combining chain tracing with density modification",
+ Acta Cryst. D66, 479-485 (Open Access) if SHELXE proves useful.
+
+ Command line parameters:
+  sad sad_fa -h1 -s0.550000 -m20 -i
+
+ Cell, symmetry and heavy atoms from: sad_fa.res
+ FA and alpha from: sad_fa.hkl
+ Native data from: sad.hkl
+ Listing output to sad_i.lst
+ Phases output to sad_i.phs
+ Revised heavy atom sites output to sad_i.hat
+ Revised heavy atom phases output to sad_i.pha
+
+
+ Summary of parameters to be employed:
+
+ -a     0  iterations autotracing
+ -b   5.0  extra B for revised heavy atom sites
+ -c 0.400  fraction of pixels in crossover region
+ -d 0.000  high resolution limit to be applied to input data
+ -e unset  fill in missing data up to maximum resolution + 0.2 Ang.
+ -f unset  read intensity not F from native .hkl file
+ -F 0.800  fractional weight for phases from previous global cycle
+ -g 1.100  solvent gamma flipping factor
+ -h    1  heavy atoms present in native - use first    1
+ -i invert structure (and space group)
+ -k   4.5  minimum height/sigma for revised heavy atom sites
+ -l     2  space for  2000000 reflections
+ -L     6  minimum number of residues per chain (if more than 3 chains)
+ -m    20  cycles of density modification
+ -r  3.00  map resolution (multiplies maximum indices)
+ -s 0.550  solvent fraction
+ -v unset  density sharpening factor dependent on resolution
+ -w 0.200  weight for experimental phases after cycle 1
+ -x unset  no phase and trace diagnostics 
+ -Y 0.300  SAD phase shift factor
+ -z unset  do not optimize heavy atoms
+
+ Space group: P 61 2 2   Allowed origin shift code: 10
+
+     1 atoms read from file sad_fa.res
+
+    35210 Reflections read from file sad_fa.hkl
+
+    50778 Reflections read from file sad.hkl
+
+    50712 Unique data, highest resolution =  1.529 Angstroms
+
+ Anisotropic scaling: intensities multiplied by
+ -0.000112h^2 -0.000112k^2 +0.000113l^2 +0.000000kl +0.000000hl -0.000112hk
+
+    13 Reflections with d > 1.729 and      0 in range  1.729 > d > 1.729 added
+
+ Density sharpening factor set to  1.46
+ Fourier grid =   256 x  256 x   22     0.000 <= z <= 0.083
+
+    92 Point spherical net set up with radius 2.42A
+    10 Extra Fourier layers will be generated
+
+ <|E^2-1|> = 0.744
+
+ ** Space group converted to enantiomorph **
+
+ ** Atom coordinates inverted **
+
+ Overall CC between Eobs (from delF) and Ecalc (from heavy atoms) = 14.17%
+
+ <wt> = 0.115  for phases from phiT = phiA + alpha
+ <wt> = 0.212 after including heavy atoms
+ <wt> = 0.181, Contrast = 0.014, Connect. = 0.540 for dens.mod. cycle 1
+ <wt> = 0.203, Contrast = 0.070, Connect. = 0.610 for dens.mod. cycle 2
+ <wt> = 0.219, Contrast = 0.106, Connect. = 0.657 for dens.mod. cycle 3
+ <wt> = 0.233, Contrast = 0.109, Connect. = 0.650 for dens.mod. cycle 4
+ <wt> = 0.246, Contrast = 0.110, Connect. = 0.642 for dens.mod. cycle 5
+ <wt> = 0.256, Contrast = 0.110, Connect. = 0.635 for dens.mod. cycle 6
+ <wt> = 0.266, Contrast = 0.111, Connect. = 0.629 for dens.mod. cycle 7
+ <wt> = 0.274, Contrast = 0.112, Connect. = 0.625 for dens.mod. cycle 8
+ <wt> = 0.280, Contrast = 0.113, Connect. = 0.622 for dens.mod. cycle 9
+ <wt> = 0.285, Contrast = 0.114, Connect. = 0.619 for dens.mod. cycle 10
+ <wt> = 0.288, Contrast = 0.116, Connect. = 0.617 for dens.mod. cycle 11
+ <wt> = 0.291, Contrast = 0.117, Connect. = 0.616 for dens.mod. cycle 12
+ <wt> = 0.293, Contrast = 0.119, Connect. = 0.616 for dens.mod. cycle 13
+ <wt> = 0.293, Contrast = 0.120, Connect. = 0.616 for dens.mod. cycle 14
+ <wt> = 0.294, Contrast = 0.122, Connect. = 0.617 for dens.mod. cycle 15
+ <wt> = 0.294, Contrast = 0.123, Connect. = 0.618 for dens.mod. cycle 16
+ <wt> = 0.294, Contrast = 0.125, Connect. = 0.619 for dens.mod. cycle 17
+ <wt> = 0.294, Contrast = 0.126, Connect. = 0.619 for dens.mod. cycle 18
+ <wt> = 0.294, Contrast = 0.128, Connect. = 0.620 for dens.mod. cycle 19
+ <wt> = 0.294, Contrast = 0.129, Connect. = 0.620 for dens.mod. cycle 20
+
+ Estimated mean FOM and mapCC as a function of resolution
+ d    inf - 3.38 - 2.66 - 2.31 - 2.10 - 1.94 - 1.83 - 1.73 - 1.66 - 1.59 - 1.53
+ <FOM>   0.346  0.330  0.265  0.287  0.261  0.245  0.252  0.247  0.225  0.217
+ <mapCC> 0.509  0.451  0.358  0.383  0.355  0.340  0.372  0.376  0.338  0.326
+ N        5091   5090   5215   4955   5327   4809   5472   4673   5508   4572
+
+ Estimated mean FOM = 0.268   Pseudo-free CC = 31.02 %
+
+ Anomalous density (in sigma units) at input heavy atom sites
+
+  Site     x        y        z     occ*Z   density
+    1   0.1219   0.4526   0.9442  34.0000  128.46
+
+ Site    x       y       z  h(sig) near old  near new
+   1  0.1218  0.4528  0.9444 128.7  1/0.03  5/1.82 3/1.91 6/1.98 10/1.99
+   2  0.0908  0.3342  1.1114 -10.4  1/23.87  22/7.20 8/10.94 15/12.42 15/12.49
+   3  0.1023  0.4548  0.9440  -8.5  1/1.93  5/1.25 1/1.91 4/3.06 10/3.32
+   4  0.1122  0.4280  0.9455  -8.1  1/2.00  1/2.02 14/2.48 3/3.06 6/3.36
+   5  0.1155  0.4685  0.9435  -7.6  1/1.85  3/1.25 1/1.82 10/2.39 6/3.01
+   6  0.1463  0.4658  0.9447  -7.6  1/1.97  10/0.91 14/1.34 1/1.98 5/3.01
+   7  0.4440  0.5677  0.8780   7.2  1/27.70  18/10.46 19/13.92 29/13.97 29/14.0
+   8  0.1436  0.3906  1.0370   7.1  1/13.93  22/3.81 23/8.24 2/10.94 11/11.33
+   9 -0.0050  0.2118  1.0555  -7.0  1/24.22  2/12.68 22/14.19 15/14.45 15/14.45
+  10  0.1435  0.4738  0.9439  -6.9  1/1.99  6/0.91 1/1.99 14/2.17 5/2.39
+  11  0.2134  0.5126  1.0797   6.3  1/19.13  16/0.60 13/7.57 8/11.33 22/11.34
+  12  0.3368  0.4569  0.9997  -6.1  1/21.08  20/2.60 19/6.99 13/12.70 18/14.46
+  13  0.2977  0.5444  1.0552  -6.0  1/20.22  11/7.57 16/7.85 20/11.54 12/12.70
+  14  0.1419  0.4497  0.9445  -5.9  1/2.01  6/1.34 1/2.03 10/2.17 4/2.48
+  15  0.0000  0.2129  1.1667   5.8  1/34.77  2/12.45 2/12.45 9/14.45 9/14.45
+  16  0.2133  0.5126  1.0844   5.8  1/19.68  11/0.60 13/7.85 22/11.46 8/11.63
+  17  0.0843  0.5467  1.0548  -5.7  1/18.06  23/12.60 11/14.26 16/14.40 5/17.08
+  18  0.3351  0.4539  0.8884  -5.6  1/21.08  19/7.53 7/10.46 29/12.19 29/12.22
+  19  0.3284  0.4527  0.9461  -5.5  1/19.23  12/6.99 18/7.53 20/9.52 7/13.92
+  20  0.3322  0.4522  1.0194  -5.5  1/21.89  12/2.60 19/9.52 13/11.54 8/15.68
+  21  0.3314  0.6609  0.9437  -5.3  1/19.45  28/9.63 28/11.71 13/17.42 7/17.45
+  22  0.1325  0.3748  1.0645   5.3  1/17.45  8/3.81 2/7.20 23/11.03 11/11.34
+  23  0.1203  0.4528  1.0051  -5.2  1/7.91  1/7.90 4/8.01 6/8.12 3/8.14
+  24  0.1169  0.3832  0.8896  -5.1  1/9.46  25/6.18 4/8.50 14/8.97 1/9.48
+  25  0.1223  0.4520  0.8874  -5.1  1/7.38  24/6.18 1/7.40 5/7.54 10/7.61
+  26  0.0008  0.2040  0.9437  -5.0  1/20.05  9/14.56 24/16.26 4/18.07 2/19.71
+  27  0.2433  0.3356  0.8326   4.7  1/24.09  18/12.37 29/14.33 29/14.35 27/14.8
+  28  0.2195  0.5786  0.8895  -4.7  1/12.81  28/9.15 21/9.63 25/10.69 10/11.24
+  29  0.4211  0.4211  0.8333   4.5  1/32.77  18/12.21 18/12.21 7/13.99 7/13.99
+
+ ==============================================================================
+
+       CPU times required in seconds
+       -----------------------------
+         1.6 - Setup, data input and phasing
+         9.1 - FFTs and peak-searches
+        20.8 - Sphere of influence
+         0.5 - Rest of density modification
+         0.0 - Alpha-helix search
+         0.0 - Tripeptide search
+         0.0 - Chain tracing
+         0.0 - NCS analysis
+         0.0 - B-value refinement for trace
+         0.0 - Rest of tracing
+         0.0 - Comparison with known structure
+
+
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++
+ +  SHELXE finished at 11:06:16      Total time:        32.08 secs  +
+ ++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++++

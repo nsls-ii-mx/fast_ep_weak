@@ -1,0 +1,262 @@
+ ###############################################################################
+ ### ARP/wARP Program Suite 7.6: Chkseq 10.12.2015 -------- Victor S. Lamzin ###
+ ############ Copyright 1998 European Molecular Biology Laboratory #############
+ ###############################################################################
+
+ User: yamada  Run date and time: Tue Oct 11 16:51:33 2016
+ CCP4 environment: 7.0  ARP/wARP environment: 7.6/bin/bin-x86_64-Linux
+
+
+ Logical name: SEQIN
+
+ Opening file: /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123/temp_tracing/sequence.txt_lf
+
+ Logical name: SEQOUT
+
+ Opening file: /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123/temp_tracing/sequence.txt_lf_out
+ 
+>5TLN:A|PDBID|CHAIN|SEQUENCE
+ 
+ITGTSTVGVGRGVLGDQKNINTTYSTYYYLQDNTRGDGIFTYDAKYRTTLPGSLWADADNQFFASYDAPAVDAHYYAGVT
+YDYYKNVHNRLSYDGNNAAIRSSVHYSQGYNNAFWNGSEMVYGDGDGQTFIPLSGGIDVVAHELTHAVTDYTAGLIYQNE
+SGAINEAISDIFGTLVEFYANKNPDWEIGEDVYTPGISGDSLRSMSDPAKYGDPDHYSKRYTGTQDNGGVHINSGIINKA
+AYLISQGGTHYGVSVVGIGRDKLGKIFYRALTQYLTPTSNFSQLRAAAVQSATDLYGSTSQEVASVKQAFDAVGVK
+ 
+ Chkseq: Sequence fragments                    1
+ Chkseq: Number of standard residues         316
+ Chkseq: Non-std residues replaced to ALA      0
+ Chkseq: 10-ALA stretches introduced           0
+
+ Detected NCS-order of the sequence is  1
+ Derived sequence length is   316
+
+ ###############################################################################
+ ### ARP/wARP Program Suite: CHECK_SEQUENCE by S.X. Cohen (2007-2009)        ###
+ ############ Copyright 2007-2009 , NKI, A. Perrakis Laboratory ################
+ ###############################################################################
+
+
+version of libwarp : 2310-x86_64
+Starting time : Tue Oct 11 16:51:33 2016
+
+<?xml version="1.0" encoding="UTF-8"?>
+<arp-warp>
+  <check_sequence>
+    <XMLOutputFilename>check_sequence.xml</XMLOutputFilename>
+    <MessageFilename>check_sequence.txt</MessageFilename>
+    <AbortLevel>8</AbortLevel>
+    <MessageLevel>3</MessageLevel>
+    <ProgramName>check_sequence</ProgramName>
+    <DictionaryFilename>/usr/local/crys-prod/arp_warp_7.6/bin/bin-x86_64-Linux/AAbis.XYZ</DictionaryFilename>
+    <NumberOfSequence>1</NumberOfSequence>
+    <SequenceFilename>/GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123/temp_tracing/sequence.txt_lf</SequenceFilename>
+    <SequenceMultiplicty>1</SequenceMultiplicty>
+  </check_sequence>
+</arp-warp>
+SER Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+SER Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+SER Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+SER Acquired a new value for angle chi1 : 90 (in radian is=1.5708)
+CYS Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+CYS Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+CYS Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+VAL Acquired a new value for angle chi1 : 175 (in radian is=3.05433)
+VAL Acquired a new value for angle chi1 : -63 (in radian is=-1.09956)
+VAL Acquired a new value for angle chi1 : 60 (in radian is=1.0472)
+THR Acquired a new value for angle chi1 : -58 (in radian is=-1.01229)
+THR Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+THR Acquired a new value for angle chi1 : -170 (in radian is=-2.96706)
+THR Acquired a new value for angle chi1 : -25 (in radian is=-0.436332)
+PRO Acquired a new value for angle chi1 : -26 (in radian is=-0.453786)
+PRO Acquired a new value for angle chi1 : 27 (in radian is=0.471239)
+PRO Acquired a new value for angle chi1 : 2 (in radian is=0.0349066)
+PRO Acquired a new value for angle chi2 : -36 (in radian is=-0.628319)
+PRO Acquired a new value for angle chi2 : 37 (in radian is=0.645772)
+PRO Acquired a new value for angle chi2 : -17 (in radian is=-0.296706)
+PRO Acquired a new value for angle chi2 : 5 (in radian is=0.0872665)
+ILE Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+ILE Acquired a new value for angle chi1 : 60 (in radian is=1.0472)
+ILE Acquired a new value for angle chi1 : -170 (in radian is=-2.96706)
+ILE Acquired a new value for angle chi1 : 100 (in radian is=1.74533)
+ILE Acquired a new value for angle chi2 : 170 (in radian is=2.96706)
+ILE Acquired a new value for angle chi2 : -60 (in radian is=-1.0472)
+ILE Acquired a new value for angle chi2 : 55 (in radian is=0.959931)
+LEU Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+LEU Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+LEU Acquired a new value for angle chi1 : -100 (in radian is=-1.74533)
+LEU Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+LEU Acquired a new value for angle chi2 : 175 (in radian is=3.05433)
+LEU Acquired a new value for angle chi2 : 65 (in radian is=1.13446)
+LEU Acquired a new value for angle chi2 : -65 (in radian is=-1.13446)
+ASP Acquired a new value for angle chi1 : -68 (in radian is=-1.18682)
+ASP Acquired a new value for angle chi1 : 190 (in radian is=3.31613)
+ASP Acquired a new value for angle chi1 : 60 (in radian is=1.0472)
+ASP Acquired a new value for angle chi2 : -10 (in radian is=-0.174533)
+ASP Acquired a new value for angle chi2 : -50 (in radian is=-0.872665)
+ASP Acquired a new value for angle chi2 : -30 (in radian is=-0.523599)
+ASP Acquired a new value for angle chi2 : 10 (in radian is=0.174533)
+ASP Acquired a new value for angle chi2 : 30 (in radian is=0.523599)
+ASP Acquired a new value for angle chi2 : -90 (in radian is=-1.5708)
+ASP Acquired a new value for angle chi2 : 90 (in radian is=1.5708)
+ASN Acquired a new value for angle chi1 : -70 (in radian is=-1.22173)
+ASN Acquired a new value for angle chi1 : 190 (in radian is=3.31613)
+ASN Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+ASN Acquired a new value for angle chi1 : -150 (in radian is=-2.61799)
+ASN Acquired a new value for angle chi1 : -120 (in radian is=-2.0944)
+ASN Acquired a new value for angle chi2 : -60 (in radian is=-1.0472)
+ASN Acquired a new value for angle chi2 : -20 (in radian is=-0.349066)
+ASN Acquired a new value for angle chi2 : -90 (in radian is=-1.5708)
+ASN Acquired a new value for angle chi2 : 10 (in radian is=0.174533)
+ASN Acquired a new value for angle chi2 : 40 (in radian is=0.698132)
+ASN Acquired a new value for angle chi2 : 70 (in radian is=1.22173)
+ASN Acquired a new value for angle chi2 : 100 (in radian is=1.74533)
+ASN Acquired a new value for angle chi2 : 130 (in radian is=2.26893)
+ASN Acquired a new value for angle chi2 : 160 (in radian is=2.79253)
+MET Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+MET Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+MET Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+MET Acquired a new value for angle chi1 : 0 (in radian is=0)
+MET Acquired a new value for angle chi2 : 180 (in radian is=3.14159)
+MET Acquired a new value for angle chi2 : -65 (in radian is=-1.13446)
+MET Acquired a new value for angle chi2 : 70 (in radian is=1.22173)
+MET Acquired a new value for angle chi3 : -70 (in radian is=-1.22173)
+MET Acquired a new value for angle chi3 : 80 (in radian is=1.39626)
+MET Acquired a new value for angle chi3 : -170 (in radian is=-2.96706)
+MSE Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+MSE Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+MSE Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+MSE Acquired a new value for angle chi1 : 0 (in radian is=0)
+MSE Acquired a new value for angle chi2 : 180 (in radian is=3.14159)
+MSE Acquired a new value for angle chi2 : -65 (in radian is=-1.13446)
+MSE Acquired a new value for angle chi2 : 70 (in radian is=1.22173)
+MSE Acquired a new value for angle chi3 : -70 (in radian is=-1.22173)
+MSE Acquired a new value for angle chi3 : 80 (in radian is=1.39626)
+MSE Acquired a new value for angle chi3 : -170 (in radian is=-2.96706)
+GLU Acquired a new value for angle chi1 : 182 (in radian is=3.1765)
+GLU Acquired a new value for angle chi1 : -68 (in radian is=-1.18682)
+GLU Acquired a new value for angle chi1 : -160 (in radian is=-2.79253)
+GLU Acquired a new value for angle chi1 : 60 (in radian is=1.0472)
+GLU Acquired a new value for angle chi2 : 181 (in radian is=3.15905)
+GLU Acquired a new value for angle chi2 : 75 (in radian is=1.309)
+GLU Acquired a new value for angle chi2 : -70 (in radian is=-1.22173)
+GLU Acquired a new value for angle chi3 : -60 (in radian is=-1.0472)
+GLU Acquired a new value for angle chi3 : -30 (in radian is=-0.523599)
+GLU Acquired a new value for angle chi3 : -5 (in radian is=-0.0872665)
+GLU Acquired a new value for angle chi3 : 15 (in radian is=0.261799)
+GLU Acquired a new value for angle chi3 : 40 (in radian is=0.698132)
+GLU Acquired a new value for angle chi3 : 70 (in radian is=1.22173)
+GLN Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+GLN Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+GLN Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+GLN Acquired a new value for angle chi2 : 180 (in radian is=3.14159)
+GLN Acquired a new value for angle chi2 : -70 (in radian is=-1.22173)
+GLN Acquired a new value for angle chi2 : 70 (in radian is=1.22173)
+GLN Acquired a new value for angle chi2 : -140 (in radian is=-2.44346)
+GLN Acquired a new value for angle chi2 : 150 (in radian is=2.61799)
+GLN Acquired a new value for angle chi3 : -180 (in radian is=-3.14159)
+GLN Acquired a new value for angle chi3 : -150 (in radian is=-2.61799)
+GLN Acquired a new value for angle chi3 : -120 (in radian is=-2.0944)
+GLN Acquired a new value for angle chi3 : -90 (in radian is=-1.5708)
+GLN Acquired a new value for angle chi3 : -60 (in radian is=-1.0472)
+GLN Acquired a new value for angle chi3 : -30 (in radian is=-0.523599)
+GLN Acquired a new value for angle chi3 : 0 (in radian is=0)
+GLN Acquired a new value for angle chi3 : 30 (in radian is=0.523599)
+GLN Acquired a new value for angle chi3 : 60 (in radian is=1.0472)
+GLN Acquired a new value for angle chi3 : 90 (in radian is=1.5708)
+GLN Acquired a new value for angle chi3 : 120 (in radian is=2.0944)
+GLN Acquired a new value for angle chi3 : 150 (in radian is=2.61799)
+LYS Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+LYS Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+LYS Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+LYS Acquired a new value for angle chi2 : 180 (in radian is=3.14159)
+LYS Acquired a new value for angle chi2 : -60 (in radian is=-1.0472)
+LYS Acquired a new value for angle chi2 : 65 (in radian is=1.13446)
+LYS Acquired a new value for angle chi3 : 180 (in radian is=3.14159)
+LYS Acquired a new value for angle chi3 : -65 (in radian is=-1.13446)
+LYS Acquired a new value for angle chi3 : 65 (in radian is=1.13446)
+LYS Acquired a new value for angle chi3 : 120 (in radian is=2.0944)
+LYS Acquired a new value for angle chi4 : 180 (in radian is=3.14159)
+LYS Acquired a new value for angle chi4 : -65 (in radian is=-1.13446)
+LYS Acquired a new value for angle chi4 : 70 (in radian is=1.22173)
+LYS Acquired a new value for angle chi4 : -120 (in radian is=-2.0944)
+LYS Acquired a new value for angle chi4 : 90 (in radian is=1.5708)
+LYS Acquired a new value for angle chi4 : 140 (in radian is=2.44346)
+HIS Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+HIS Acquired a new value for angle chi1 : -170 (in radian is=-2.96706)
+HIS Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+HIS Acquired a new value for angle chi2 : -180 (in radian is=-3.14159)
+HIS Acquired a new value for angle chi2 : -150 (in radian is=-2.61799)
+HIS Acquired a new value for angle chi2 : -120 (in radian is=-2.0944)
+HIS Acquired a new value for angle chi2 : -90 (in radian is=-1.5708)
+HIS Acquired a new value for angle chi2 : -60 (in radian is=-1.0472)
+HIS Acquired a new value for angle chi2 : -30 (in radian is=-0.523599)
+HIS Acquired a new value for angle chi2 : 0 (in radian is=0)
+HIS Acquired a new value for angle chi2 : 30 (in radian is=0.523599)
+HIS Acquired a new value for angle chi2 : 60 (in radian is=1.0472)
+HIS Acquired a new value for angle chi2 : 90 (in radian is=1.5708)
+HIS Acquired a new value for angle chi2 : 120 (in radian is=2.0944)
+HIS Acquired a new value for angle chi2 : 150 (in radian is=2.61799)
+ARG Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+ARG Acquired a new value for angle chi1 : 185 (in radian is=3.22886)
+ARG Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+ARG Acquired a new value for angle chi2 : 180 (in radian is=3.14159)
+ARG Acquired a new value for angle chi2 : -70 (in radian is=-1.22173)
+ARG Acquired a new value for angle chi2 : 70 (in radian is=1.22173)
+ARG Acquired a new value for angle chi3 : 180 (in radian is=3.14159)
+ARG Acquired a new value for angle chi3 : -65 (in radian is=-1.13446)
+ARG Acquired a new value for angle chi3 : 70 (in radian is=1.22173)
+ARG Acquired a new value for angle chi4 : 180 (in radian is=3.14159)
+ARG Acquired a new value for angle chi4 : -140 (in radian is=-2.44346)
+ARG Acquired a new value for angle chi4 : -90 (in radian is=-1.5708)
+ARG Acquired a new value for angle chi4 : 0 (in radian is=0)
+ARG Acquired a new value for angle chi4 : 90 (in radian is=1.5708)
+ARG Acquired a new value for angle chi4 : 140 (in radian is=2.44346)
+PHE Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+PHE Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+PHE Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+PHE Acquired a new value for angle chi1 : -110 (in radian is=-1.91986)
+PHE Acquired a new value for angle chi2 : 75 (in radian is=1.309)
+PHE Acquired a new value for angle chi2 : -75 (in radian is=-1.309)
+PHE Acquired a new value for angle chi2 : -40 (in radian is=-0.698132)
+PHE Acquired a new value for angle chi2 : -10 (in radian is=-0.174533)
+TYR Acquired a new value for angle chi1 : -65 (in radian is=-1.13446)
+TYR Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+TYR Acquired a new value for angle chi1 : 65 (in radian is=1.13446)
+TYR Acquired a new value for angle chi1 : -155 (in radian is=-2.70526)
+TYR Acquired a new value for angle chi1 : 90 (in radian is=1.5708)
+TYR Acquired a new value for angle chi2 : 75 (in radian is=1.309)
+TYR Acquired a new value for angle chi2 : -80 (in radian is=-1.39626)
+TYR Acquired a new value for angle chi2 : -60 (in radian is=-1.0472)
+TYR Acquired a new value for angle chi2 : -30 (in radian is=-0.523599)
+TYR Acquired a new value for angle chi2 : 40 (in radian is=0.698132)
+TRP Acquired a new value for angle chi1 : -70 (in radian is=-1.22173)
+TRP Acquired a new value for angle chi1 : 180 (in radian is=3.14159)
+TRP Acquired a new value for angle chi1 : 50 (in radian is=0.872665)
+TRP Acquired a new value for angle chi1 : -40 (in radian is=-0.698132)
+TRP Acquired a new value for angle chi1 : -100 (in radian is=-1.74533)
+TRP Acquired a new value for angle chi2 : -130 (in radian is=-2.26893)
+TRP Acquired a new value for angle chi2 : -95 (in radian is=-1.65806)
+TRP Acquired a new value for angle chi2 : -70 (in radian is=-1.22173)
+TRP Acquired a new value for angle chi2 : -40 (in radian is=-0.698132)
+TRP Acquired a new value for angle chi2 : -10 (in radian is=-0.174533)
+TRP Acquired a new value for angle chi2 : 30 (in radian is=0.523599)
+TRP Acquired a new value for angle chi2 : 90 (in radian is=1.5708)
+TRP Acquired a new value for angle chi2 : 110 (in radian is=1.91986)
+TRP Acquired a new value for angle chi2 : 140 (in radian is=2.44346)
+
+Tyring to read in Sequence file : '/GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123/temp_tracing/sequence.txt_lf' ... This sequence files seems OK.
+This sequence contains 316 residues and is present 1 time(s) in the AsU (total 316 residues).
+
+
+Total number of residues in sequence is : 316
+
+
+
+***** IMPORTANT *****
+All sequence file(s) could be interpreted.
+
+
+
+Ending time : Tue Oct 11 16:51:33 2016
+
+CPU usage : 0s.

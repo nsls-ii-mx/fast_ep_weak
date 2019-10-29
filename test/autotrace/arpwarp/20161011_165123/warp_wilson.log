@@ -1,0 +1,358 @@
+ ###############################################################################
+ ### ARP/wARP Program Suite 7.6: ARP_WARP 10.12.2015 ------ Victor S. Lamzin ###
+ ############ Copyright 1998 European Molecular Biology Laboratory #############
+ ###############################################################################
+
+ User: yamada  Run date and time: Tue Oct 11 16:51:23 2016
+ CCP4 environment: 7.0  ARP/wARP environment: 7.6/bin/bin-x86_64-Linux
+
+    0.00 CPU     0.00 Elapsed  
+ Data line --  MODE WILSON NRES 0
+
+ Required keywords:
+ FILES        CCP4 file_names
+ RESOLUTION   resmin resmax
+ LABELS       input labels for FP SIGFP FUSE [FOMUSE]
+ END (must be the last keyword)
+
+ Data line --  FILES CCP4 HKLIN /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/a
+               utotrace/dm/dm.mtz
+ Data line --  RESOLUTION 80.654 1.529
+ Data line --  LABELS FP=F SIGFP=SIGF FUSE=F
+ Data line --  END
+
+ Comments:  Wilson plot will be examined using FP and SIGFP
+ Comments:    within resolution range  80.65  1.53
+ Comments:  Map scale will be derived using FUSE
+
+ Comments:  Number of residues in the asymmetric unit                   0
+ Comments:  Number of protein atoms in the asymmetric unit              0
+ Comments:  Number of nucleotides in the asymmetric unit                0
+ Comments:  Number of nucleotide atoms in the asymmetric unit           0
+ Comments:  Total number of atoms expected in the asymmetric unit       0
+ -- WARNING -- This is not a standard use of ARP  
+ No atoms expected in the asymmetric unit
+ 
+
+ File /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/dm/dm.mtz opened on unit 1
+
+ Header information in the file /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/dm/dm.mtz
+ Number of columns         10
+ Number of reflections  50810
+ Symmetry operator      X,  Y,  Z
+ Symmetry operator      Y,  -X+Y,  Z+5/6
+ Symmetry operator      X-Y,  X,  Z+1/6
+ Symmetry operator      X-Y,  -Y,  -Z
+ Symmetry operator      Y,  X,  -Z+1/3
+ Symmetry operator      -Y,  -X,  -Z+5/6
+ Symmetry operator      X,  X-Y,  -Z+1/6
+ Symmetry operator      -X+Y,  Y,  -Z+1/2
+ Symmetry operator      -X,  -X+Y,  -Z+2/3
+ Symmetry operator      -X+Y,  -X,  Z+2/3
+ Symmetry operator      -X,  -Y,  Z+1/2
+ Symmetry operator      -Y,  X-Y,  Z+1/3
+ Resolution range       80.65    1.53
+ Label in the file                    H
+ Label in the file                    K
+ Label in the file                    L
+ Label in the file                    F
+ Label in the file                  FOM
+ Label in the file                  PHI
+ Label in the file                 SIGF
+ Label in the file           FreeF_flag
+ Label in the file                PHIDM
+ Label in the file                FOMDM
+ 
+ Cell parameters        93.131   93.131  129.922   90.000   90.000  120.000
+ These are taken from the MTZ record DCEL  0
+
+ Space group number       178
+
+   Space group number        178     P6122     
+   No of symmetry operators   12
+   Symmetry operator           X, Y, Z
+   Symmetry operator           -Y, X-Y, Z+1/3
+   Symmetry operator           -X+Y, -X, Z+2/3
+   Symmetry operator           -X, -Y, Z+1/2
+   Symmetry operator           Y, -X+Y, Z+5/6
+   Symmetry operator           X-Y, X, Z+1/6
+   Symmetry operator           Y, X, -Z+1/3
+   Symmetry operator           X-Y, -Y, -Z
+   Symmetry operator           -X, -X+Y, -Z+2/3
+   Symmetry operator           -Y, -X, -Z+5/6
+   Symmetry operator           -X+Y, Y, -Z+1/2
+   Symmetry operator           X, X-Y, -Z+1/6
+
+   1 symmetry matrix (identity matrix) and translation vector:
+   1.000   0.000   0.000       0.000
+   0.000   1.000   0.000       0.000
+   0.000   0.000   1.000       0.000
+
+   2 symmetry matrix (3-fold rotation) and translation vector:
+   0.000  -1.000   0.000       0.000
+   1.000  -1.000   0.000       0.000
+   0.000   0.000   1.000       0.333
+
+   3 symmetry matrix (3-fold rotation) and translation vector:
+  -1.000   1.000   0.000       0.000
+  -1.000   0.000   0.000       0.000
+   0.000   0.000   1.000       0.667
+
+   4 symmetry matrix (2-fold rotation) and translation vector:
+  -1.000   0.000   0.000       0.000
+   0.000  -1.000   0.000       0.000
+   0.000   0.000   1.000       0.500
+
+   5 symmetry matrix (6-fold rotation) and translation vector:
+   0.000   1.000   0.000       0.000
+  -1.000   1.000   0.000       0.000
+   0.000   0.000   1.000       0.833
+
+   6 symmetry matrix (6-fold rotation) and translation vector:
+   1.000  -1.000   0.000       0.000
+   1.000   0.000   0.000       0.000
+   0.000   0.000   1.000       0.167
+
+   7 symmetry matrix (2-fold rotation) and translation vector:
+   0.000   1.000   0.000       0.000
+   1.000   0.000   0.000       0.000
+   0.000   0.000  -1.000       0.333
+
+   8 symmetry matrix (2-fold rotation) and translation vector:
+   1.000  -1.000   0.000       0.000
+   0.000  -1.000   0.000       0.000
+   0.000   0.000  -1.000       0.000
+
+   9 symmetry matrix (2-fold rotation) and translation vector:
+  -1.000   0.000   0.000       0.000
+  -1.000   1.000   0.000       0.000
+   0.000   0.000  -1.000       0.667
+
+  10 symmetry matrix (2-fold rotation) and translation vector:
+   0.000  -1.000   0.000       0.000
+  -1.000   0.000   0.000       0.000
+   0.000   0.000  -1.000       0.833
+
+  11 symmetry matrix (2-fold rotation) and translation vector:
+  -1.000   1.000   0.000       0.000
+   0.000   1.000   0.000       0.000
+   0.000   0.000  -1.000       0.500
+
+  12 symmetry matrix (2-fold rotation) and translation vector:
+   1.000   0.000   0.000       0.000
+   1.000  -1.000   0.000       0.000
+   0.000   0.000  -1.000       0.167
+ 
+ Inverse symmetry   1.000   0.000   0.000   0.000
+ Inverse symmetry   0.000   1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000   1.000   0.000
+ 
+ Inverse symmetry  -1.000   1.000   0.000   0.000
+ Inverse symmetry  -1.000   0.000   0.000   0.000
+ Inverse symmetry   0.000   0.000   1.000  -0.333
+ 
+ Inverse symmetry   0.000  -1.000   0.000   0.000
+ Inverse symmetry   1.000  -1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000   1.000  -0.667
+ 
+ Inverse symmetry  -1.000   0.000   0.000   0.000
+ Inverse symmetry   0.000  -1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000   1.000  -0.500
+ 
+ Inverse symmetry   1.000  -1.000   0.000   0.000
+ Inverse symmetry   1.000   0.000   0.000   0.000
+ Inverse symmetry   0.000   0.000   1.000  -0.833
+ 
+ Inverse symmetry   0.000   1.000   0.000   0.000
+ Inverse symmetry  -1.000   1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000   1.000  -0.167
+ 
+ Inverse symmetry   0.000   1.000   0.000   0.000
+ Inverse symmetry   1.000   0.000   0.000   0.000
+ Inverse symmetry   0.000   0.000  -1.000   0.333
+ 
+ Inverse symmetry   1.000  -1.000   0.000   0.000
+ Inverse symmetry   0.000  -1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000  -1.000   0.000
+ 
+ Inverse symmetry  -1.000   0.000   0.000   0.000
+ Inverse symmetry  -1.000   1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000  -1.000   0.667
+ 
+ Inverse symmetry   0.000  -1.000   0.000   0.000
+ Inverse symmetry  -1.000   0.000   0.000   0.000
+ Inverse symmetry   0.000   0.000  -1.000   0.833
+ 
+ Inverse symmetry  -1.000   1.000   0.000   0.000
+ Inverse symmetry   0.000   1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000  -1.000   0.500
+ 
+ Inverse symmetry   1.000   0.000   0.000   0.000
+ Inverse symmetry   1.000  -1.000   0.000   0.000
+ Inverse symmetry   0.000   0.000  -1.000   0.167
+ 
+ Label                      F          Column number    4
+ Label                   SIGF          Column number    7
+ Label                      F          Column number    4
+ 
+
+    50810 reflections in the file
+       85 reflections flagged as missing
+     1079 reflections with too low amplitude
+        0 reflections outside resolution limits
+        0 reflections are systematic absences
+        9 reflections outside resolution limits  35.01 to   0.90
+    49637 reflections to work
+
+ For FP/SIGFP:   3 cycles taken
+ Resol_high  1.53  Bfactor  10.05  ChiSquare    3.47  Two_omega  1.16  Eff_resol  1.40
+
+ For FUSE/FOMUSE/SIGFP:   3 cycles taken
+ Resol_huse  1.53  Bfacuse  10.05  ChiSquuse    3.47  Two_omuse  1.16  Eff_resus  1.40
+
+ $TABLE: Wilson plot statistics :
+ $GRAPHS: Log<Intensity> vrs Resolution :A:3,4,5:
+ : ChiSquare vrs Resolution :N:3,6:
+ : I_observed/I_standard ratio vrs Resolution :N:3,7:
+ $$
+   Dmin  Dmax  1/resol^2  Log<Istd>  Log<Iobs>  ChiSq  Iobs/Istd  Comment
+ $$
+    (A)   (A)   (A^(-2)   (expected  (observed
+                          intensity) intensity)
+ $$
+  14.27 10.54    0.0070     11.69      11.42     6.67     0.76 .
+  10.54  8.74    0.0110     11.53      11.27     9.27     0.77 <===Problems
+   8.74  7.63    0.0151     11.31      11.22     1.12     0.92 .
+   7.63  6.86    0.0192     11.06      10.97     1.21     0.92 .
+   6.86  6.28    0.0233     10.97      10.84     2.81     0.88 .
+   6.28  5.83    0.0274     11.03      10.81     6.74     0.80 .
+   5.83  5.46    0.0315     11.19      10.93    19.32     0.77 <===Problems
+   5.46  5.15    0.0356     11.41      11.04    30.23     0.69 <===Problems
+   5.15  4.89    0.0397     11.61      11.31    21.62     0.75 <===Problems
+   4.89  4.67    0.0438     11.75      11.60     5.73     0.86 .
+   4.67  4.48    0.0479     11.83      11.61    12.47     0.80 <===Problems
+   4.48  4.30    0.0520     11.85      11.67     8.69     0.84 <===Problems
+   4.30  4.15    0.0561     11.83      11.76     1.17     0.93 .
+   4.15  4.01    0.0601     11.80      11.78     0.13     0.98 .
+   4.01  3.88    0.0642     11.77      11.64     4.05     0.88 .
+   3.88  3.77    0.0683     11.74      11.71     0.32     0.96 .
+   3.77  3.66    0.0724     11.70      11.70     0.00     1.00 .
+   3.66  3.57    0.0765     11.66      11.69     0.33     1.03 .
+   3.57  3.48    0.0806     11.62      11.64     0.15     1.02 .
+   3.48  3.40    0.0847     11.56      11.50     0.98     0.94 .
+   3.40  3.32    0.0888     11.49      11.45     0.29     0.97 .
+   3.32  3.25    0.0929     11.41      11.32     2.66     0.92 .
+   3.25  3.18    0.0970     11.33      11.21     4.46     0.89 .
+   3.18  3.11    0.1011     11.27      11.22     0.66     0.96 .
+   3.11  3.05    0.1052     11.20      11.19     0.07     0.98 .
+   3.05  3.00    0.1093     11.15      11.06     2.71     0.91 .
+   3.00  2.94    0.1133     11.09      11.11     0.12     1.02 .
+   2.94  2.89    0.1174     11.03      11.08     0.99     1.05 .
+   2.89  2.84    0.1215     10.98      11.05     1.39     1.07 .
+   2.84  2.80    0.1256     10.93      10.98     0.91     1.05 .
+   2.80  2.75    0.1297     10.89      10.93     0.41     1.04 .
+   2.75  2.71    0.1338     10.86      10.99     6.29     1.14 .
+   2.71  2.67    0.1379     10.84      10.93     2.26     1.09 .
+   2.67  2.63    0.1420     10.82      10.92     2.95     1.10 .
+   2.63  2.60    0.1461     10.81      10.83     0.19     1.02 .
+   2.60  2.56    0.1502     10.78      10.82     0.49     1.04 .
+   2.56  2.53    0.1543     10.76      10.79     0.29     1.03 .
+   2.53  2.50    0.1584     10.75      10.75     0.00     1.00 .
+   2.50  2.47    0.1625     10.75      10.75     0.00     1.00 .
+   2.47  2.44    0.1665     10.73      10.76     0.39     1.03 .
+   2.44  2.41    0.1706     10.74      10.74     0.00     1.00 .
+   2.41  2.38    0.1747     10.73      10.78     0.71     1.04 .
+   2.38  2.35    0.1788     10.74      10.74     0.00     1.00 .
+   2.35  2.33    0.1829     10.73      10.78     0.92     1.05 .
+   2.33  2.30    0.1870     10.74      10.82     2.70     1.09 .
+   2.30  2.28    0.1911     10.74      10.79     0.98     1.05 .
+   2.28  2.25    0.1952     10.74      10.83     2.93     1.09 .
+   2.25  2.23    0.1993     10.73      10.84     3.60     1.11 .
+   2.23  2.21    0.2034     10.73      10.66     2.64     0.93 .
+   2.21  2.18    0.2075     10.72      10.75     0.49     1.03 .
+   2.18  2.16    0.2116     10.70      10.70     0.03     0.99 .
+   2.16  2.14    0.2156     10.68      10.71     0.34     1.02 .
+   2.14  2.12    0.2197     10.68      10.79     5.09     1.11 .
+   2.12  2.10    0.2238     10.68      10.73     1.71     1.06 .
+   2.10  2.09    0.2279     10.66      10.74     3.19     1.09 .
+   2.09  2.07    0.2320     10.62      10.71     2.96     1.09 .
+   2.07  2.05    0.2361     10.59      10.60     0.03     1.01 .
+   2.05  2.03    0.2402     10.57      10.68     4.84     1.11 .
+   2.03  2.01    0.2443     10.55      10.54     0.04     0.99 .
+   2.01  2.00    0.2484     10.51      10.65     9.20     1.15 <===Problems
+   2.00  1.98    0.2525     10.48      10.54     1.82     1.06 .
+   1.98  1.97    0.2566     10.44      10.49     1.33     1.05 .
+   1.97  1.95    0.2607     10.40      10.53     7.82     1.14 .
+   1.95  1.94    0.2648     10.36      10.51    11.51     1.16 <===Problems
+   1.94  1.92    0.2688     10.32      10.41     4.56     1.10 .
+   1.92  1.91    0.2729     10.28      10.38     5.67     1.11 .
+   1.91  1.89    0.2770     10.24      10.34     4.35     1.10 .
+   1.89  1.88    0.2811     10.22      10.32     4.17     1.10 .
+   1.88  1.87    0.2852     10.18      10.20     0.41     1.03 .
+   1.87  1.85    0.2893     10.14      10.19     1.67     1.06 .
+   1.85  1.84    0.2934     10.10      10.11     0.11     1.01 .
+   1.84  1.83    0.2975     10.07      10.12     1.02     1.05 .
+   1.83  1.81    0.3016     10.03      10.11     2.85     1.07 .
+   1.81  1.80    0.3057     10.01      10.11     4.94     1.11 .
+   1.80  1.79    0.3098      9.98      10.11     7.45     1.13 .
+   1.79  1.78    0.3139      9.96      10.04     3.23     1.08 .
+   1.78  1.77    0.3179      9.94      10.07     8.44     1.14 <===Problems
+   1.77  1.76    0.3220      9.92       9.92     0.01     1.01 .
+   1.76  1.75    0.3261      9.91       9.88     0.24     0.98 .
+   1.75  1.73    0.3302      9.90       9.85     1.43     0.95 .
+   1.73  1.72    0.3343      9.88       9.94     2.10     1.06 .
+   1.72  1.71    0.3384      9.86       9.92     1.61     1.06 .
+   1.71  1.70    0.3425      9.85       9.83     0.11     0.99 .
+   1.70  1.69    0.3466      9.83       9.75     4.30     0.92 .
+   1.69  1.68    0.3507      9.80       9.82     0.13     1.02 .
+   1.68  1.67    0.3548      9.80       9.73     2.08     0.94 .
+   1.67  1.66    0.3589      9.79       9.77     0.20     0.98 .
+   1.66  1.66    0.3630      9.79       9.75     0.92     0.96 .
+   1.66  1.65    0.3670      9.79       9.77     0.10     0.99 .
+   1.65  1.64    0.3711      9.78       9.76     0.17     0.98 .
+   1.64  1.63    0.3752      9.78       9.73     0.99     0.96 .
+   1.63  1.62    0.3793      9.76       9.72     0.70     0.96 .
+   1.62  1.61    0.3834      9.75       9.73     0.21     0.98 .
+   1.61  1.60    0.3875      9.74       9.62     9.95     0.89 <===Problems
+   1.60  1.59    0.3916      9.73       9.61     8.96     0.88 <===Problems
+   1.59  1.59    0.3957      9.72       9.63     3.90     0.92 .
+   1.59  1.58    0.3998      9.71       9.63     3.79     0.93 .
+   1.58  1.57    0.4039      9.71       9.55    16.98     0.86 <===Problems
+   1.57  1.56    0.4080      9.70       9.62     3.96     0.92 .
+   1.56  1.55    0.4121      9.70       9.58    10.15     0.89 <===Problems
+   1.55  1.55    0.4162      9.68       9.62     2.04     0.94 .
+   1.55  1.54    0.4202      9.67       9.60     2.80     0.93 .
+   1.54  1.53    0.4243      9.65       9.58     3.60     0.93 .
+   1.53  1.52    0.4284      9.65       9.51     4.73     0.87 .
+ $$
+
+ Comments:  Overall fit of the data to the Wilson curve:
+
+ Comments:  Problems           Resolution range   2.01  to   2.00
+ Comments:  Problems           Resolution range   1.95  to   1.94
+ Comments:  Problems           Resolution range   1.78  to   1.77
+ Comments:  Possible reasons - salt/ice satellites, pseudosymmetry
+
+ Comments:  Problems           Resolution range  10.54  to   8.74
+ Comments:  Problems           Resolution range   5.83  to   5.46
+ Comments:  Problems           Resolution range   5.46  to   5.15
+ Comments:  Problems           Resolution range   5.15  to   4.89
+ Comments:  Problems           Resolution range   4.67  to   4.48
+ Comments:  Problems           Resolution range   4.48  to   4.30
+ Comments:  Problems           Resolution range   1.61  to   1.60
+ Comments:  Problems           Resolution range   1.60  to   1.59
+ Comments:  Problems           Resolution range   1.58  to   1.57
+ Comments:  Problems           Resolution range   1.56  to   1.55
+ Comments:  Possible reasons - missing overloads
+
+
+ PoorLowResolution  8.74
+ WARNING ! Discard poor data at resolution lower than   8.74 A
+
+ Solvent content     1.0000
+
+
+ Computed solvent content is too high - check your input
+
+ ***** ERROR *****
+ 

@@ -1,0 +1,27 @@
+Using 72 cpus / 1 machines
+Input:       fast_dp.mtz
+Columns:     I(+),SIGI(+),I(-),SIGI(-),merged
+Unit cell:   93.13 93.13 129.92 90.00 90.00 120.00
+Wavelength:  1.1272
+N try:       200
+Pointgroup:  P 6 2 2
+Resolution:  29.68 - 1.53
+Nrefl:       50778 / 44388
+DF/F:        0.048
+dI/sig(dI):  0.902
+Spacegroups: P622 P6122 P6222 P6322
+SHELXC summary:
+Dmin  <I/sig>  %comp  <d"/sig>
+ 8.20   49.60   96.00   1.54
+ 5.05   53.10  100.00   1.37
+ 3.80   55.60  100.00   1.13
+ 3.11   50.00  100.00   1.13
+ 2.66   41.70  100.00   1.09
+ 2.34   33.60  100.00   0.99
+ 2.10   27.60  100.00   0.93
+ 1.91   20.30  100.00   0.84
+ 1.76   13.00  100.00   0.81
+ 1.64    8.10  100.00   0.78
+ 1.53    4.70   99.10   0.74
+Resolution cut off to try:
+    2.0

@@ -1,0 +1,9 @@
+fast_ep_weak 
+
+
+fast_ep [options...]
+
+Options:
+  weak=True
+
+  sgname=<spacegroup name>

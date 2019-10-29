@@ -1,0 +1,190 @@
+
+Tue Oct 11 16:51:17 EDT 2016
+
+
+############### You are running ARP/wARP 7.6 ###############
+
+
+
+ Working directory    /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp
+ Job ID is set to     20161011_165123
+ X-ray data file      /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/dm/dm.mtz
+ Sequence file        /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/sequence.txt
+ Input PDB file       /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/shelxe/sad.pdb
+ Tracing mode         WARPNTRACEMODEL
+
+ Creating directory   /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123
+
+ Accepted label:      fp=F
+ Accepted label:      sigfp=SIGF
+ Accepted label:      phibest=PHIDM
+ Accepted label:      fom=FOM
+ Data column FreeF-Flag  is not present in the MTZ file or is not of the right type to assign to  freelabin
+
+ mtz labels taken:    F SIGF PHIDM FOM
+
+ Parameter file       /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123/arp_warp_tracing.par
+ Job launched in      /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123
+
+
+############### You are running ARP/wARP 7.6 ###############
+
+
+ 
+==================================================================================
+|           Please cite at least one of the publications below for               |
+|                   the ARP/wARP application you are using:                      |
+|                                                                                |
+| Langer G, Cohen SX, Lamzin VS, Perrakis A. (2008) Automated macromolecular     |
+| model building for x-ray crystallography using ARP/wARP version 7.             |
+| Nat. Protoc. 3, 1171-1179                                                      |
+|                                                                                |
+| Perrakis A, Morris RM, Lamzin VS. (1999) Automated protein model building      |
+| combined with iterative structure refinement. Nature Struct. Biol. 6, 458-463  |
+|                                                                                |
+| Wiegels T. & Lamzin, V.S. (2012) Use of noncrystallographic symmetry for       |
+| automated model building at medium to low resolution. Acta Crystallogr D Biol  |
+| Crystallogr. 68, 446-453                                                       |
+|                                                                                |
+|      Use of Refmac is an essential part of model building with ARP/wARP.       |
+|   Please acknowledge the use of Refmac by citing the following publication:    |
+|                                                                                |
+| Murshudov GN, Skubak P, Lebedev AA, Pannu NS, Steiner RA, Nicholls RA,         |
+| Winn MD, Long F, Vagin AA. (2011) REFMAC5 for the refinement of macromolecular |
+| crystal structures. Acta Crystallogr D Biol Crystallogr. 67, 355-367           |
+==================================================================================
+
+Tue Oct 11 16:51:31 EDT 2016
+
+ You are running ARP/wARP version 7.6
+
+ Entering warp_tracing.sh from COMMAND_LINE_SUBMISSION 
+ The working directory:               /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123
+
+ ARP/wARP software version:           7.6
+ The parameter file:                  /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/arpwarp/20161011_165123/arp_warp_tracing.par
+ ARP/wARP will run in subdirectory:   temp_tracing
+
+ Checking the estimated solvent content
+
+ Computed solvent content is outside allowed range. 
+ Target number of residues/nucleotides is changed to 350 and 0
+
+
+ Target number of residues in the AU: 350
+ Target solvent content:              0.4177
+
+ Checking the provided sequence file
+ Detected sequence length:            316
+ Number of NCS-related molecules:     1
+ Adjusted target number of residues:  316
+ Adjusted target solvent content:     0.47
+
+ Input MTZ file:                      dm.mtz.cad
+ Column labels for model refinement:  F SIGF
+ Space group number:                  178
+ Cell parameters:                     93.131 93.131 129.922 90.000 90.000 120.000
+ Input sequence file:                 sequence.txt_lf
+ Input PDB file:                      sad.pdb_lf
+
+ Setting PDB header to reflect the MTZ header content
+
+ Number of atoms in the PDB file:     1465
+
+
+ ARP/wARP will be iterated with REFMAC5
+ 2 refinement / model update cycles will be run in total.
+ Atoms will be removed below 1.0 sigma in 2mFoDFc map and added above 3.2 sigma in mFoDFc map.
+
+ Refmac Refinement Parameters
+   1 REFMAC cycle(s) with 1.0 1.0 fractional shifts damping in each cycle.
+   Conditional restraints will be used
+   Weight for restraints is set to AUTO 
+   Solvent mask correction will be used
+   Anisotropic scaling, No bulk solvent correction
+
+ Model Building Parameters
+   Main chain tracing will take place every 1 refinement / model update cycles.
+   Side chain docking will be performed from autobuilding cycle number 1
+   Loops will be built when appropriate and at the last cycle
+
+ Resolution range:                    80.654 1.529
+ Wilson plot Bfac:                    10.05
+
+ Checking whether input PDB contains ligands unknown to the Refmac library
+
+   49646 reflections ( 97.71 % complete ) and  1455 restraints for refining 1465 atoms.
+   Observations/parameters ratio is 8.47
+------------------------------------------------------
+ Starting model:  R = 0.4502 (Rfree = 0.000). 
+------------------------------------------------------
+  Cycle 0:   After refmac, R = 0.4244 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4162 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4121 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4096 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4082 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4072 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4066 (Rfree = 0.000) for 1465 atoms.
+  Cycle 0:   After refmac, R = 0.4061 (Rfree = 0.000) for 1465 atoms.
+             Found 107 (107 requested) and removed  16 (53 requested) atoms.
+------------------------------------------------------
+ Building Cycle 1    Atomic shape factors  1.41  1.57
+   Round 1: 283 peptides, 10 chains. Longest chain 65 peptides. Score 0.925
+   Round 2: 291 peptides, 9 chains. Longest chain 75 peptides. Score 0.935
+   Round 3: 292 peptides, 7 chains. Longest chain 98 peptides. Score 0.944
+   Round 4: 299 peptides, 5 chains. Longest chain 99 peptides. Score 0.956
+   Round 5: 293 peptides, 7 chains. Longest chain 75 peptides. Score 0.945
+   Taking the results from Round 4
+
+  Chains 5, Residues 294, Estimated correctness of the model 99.9 %
+  4 chains (282 residues) have been docked in sequence
+
+   Built loop between residues 48 A and 52 A
+   Built loop between residues 125 A and 131 A
+   Built loop between residues 193 A and 200 A
+  2 chains (308 residues) following loop building
+  1 chains (296 residues) in sequence following loop building
+------------------------------------------------------
+   49646 reflections ( 97.71 % complete ) and  2500 restraints for refining 2384 atoms.
+   108 conditional restraints added.
+   Observations/parameters ratio is 5.21
+------------------------------------------------------
+  Cycle 1:   After refmac, R = 0.3332 (Rfree = 0.000) for 2384 atoms.
+             Found 177 (177 requested) and removed  67 (88 requested) atoms.
+------------------------------------------------------
+ Building Cycle 2    Atomic shape factors  1.41  1.57
+   Round 1: 297 peptides, 7 chains. Longest chain 75 peptides. Score 0.947
+   Round 2: 300 peptides, 6 chains. Longest chain 99 peptides. Score 0.953
+   Round 3: 298 peptides, 8 chains. Longest chain 110 peptides. Score 0.943
+   Round 4: 300 peptides, 6 chains. Longest chain 99 peptides. Score 0.953
+   Round 5: 300 peptides, 6 chains. Longest chain 142 peptides. Score 0.953
+   Taking the results from Round 5
+
+  Last building cycle: 
+  Chain fragments will be rearranged
+
+  Chains 6, Residues 294, Estimated correctness of the model 99.9 %
+  5 chains (282 residues) have been docked in sequence
+
+
+  Sequence coverage is 95 %
+
+  All DUM atoms will be removed
+   Built loop between residues 25 A and 28 A (anchors rebuilt)
+   Built loop between residues 49 A and 51 A
+   Built loop between residues 193 A and 200 A
+   Built loop between residues 267 A and 270 A (anchors rebuilt)
+  2 chains (309 residues) following loop building
+  1 chains (297 residues) in sequence following loop building
+------------------------------------------------------
+
+   Writing map files covering molecule ...
+
+
+ Normal termination of warpNtrace
+
+
+Tue Oct 11 16:58:16 EDT 2016
+
+ Job finished.
+

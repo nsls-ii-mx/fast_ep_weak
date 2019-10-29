@@ -1,0 +1,18 @@
+cparrot -pdbin-ref /usr/local/crys-prod/ccp4-7.0/lib/data/reference_structures/reference-1tqw.pdb \
+-mtzin-ref /usr/local/crys-prod/ccp4-7.0/lib/data/reference_structures/reference-1tqw.mtz \
+-colin-ref-fo "/*/*/[FP.F_sigF.F,FP.F_sigF.sigF]" \
+-colin-ref-hl "/*/*/[FC.ABCD.A,FC.ABCD.B,FC.ABCD.C,FC.ABCD.D]" \
+-seqin-wrk /GPFS/CENTRAL/XF17ID1/yamada/thermolysin/180/ccp4i/5FXN_seq.pir \
+-mtzin-wrk /GPFS/CENTRAL/XF17ID1/yamada/work/fast_ep_weak/test/autotrace/dm/dm.mtz \
+-colin-wrk-fo "/*/*/[F,SIGF]" \
+-colin-wrk-hl "/*/*/[HLADM,HLBDB,HLCDM,HLDDM]" \
+-colin-wrk-free "/*/*/[FreeF_flag]" \
+-mtzout /GPFS/CENTRAL/XF17ID1/yamada/thermolysin/180/ccp4i/dm_parrot1.mtz \
+-colout parrot \
+-solvent-flatten \
+-histogram-match \
+-ncs-average \
+-anisotropy-correction \
+-cycles 3 \
+-resolution 1.0 \
+-ncs-mask-filter-radius 6.0
